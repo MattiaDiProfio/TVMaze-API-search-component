@@ -1,0 +1,56 @@
+/*
+Mattia Di Profio
+TVMaze API project
+15/01/23
+CSS Styles
+*/
+
+body {
+    background-color: rgb(39, 39, 43);
+}
+
+/* styles for components created through JS classes */
+.card {
+    width: 17rem;
+    margin: 1rem 0;
+
+    background-color: rgb(39, 39, 43);
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(217, 217, 217, 0.2) 0px 7px 29px 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.alert {
+    width: 80vw;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* typography and media contents */
+.display-5 {
+    color: rgb(255, 255, 255);
+}
+
+img {
+    height: 17rem;
+}
+
+/* styles for input form and results container */
+#movie-title {
+    background-color: rgb(60, 60, 64);
+    border-color: rgb(60, 60, 64);
+    color: rgb(220, 220, 220);
+}
+
+label {
+    color: rgb(220, 220, 220);
+    margin-left: 0.77rem;
+}
+
+#search-result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
